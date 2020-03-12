@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="condPrompts" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MXD64L17S2\SQLEXPRESS;Initial Catalog=condPrompts;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="consideratePrompts.Properties.Settings" SettingsPropertyName="condPromptsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.table52" Member="table52s">
+    <Type Name="table52">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[Considerate Prompts Preconditions]" Member="Considerate_Prompts_Preconditions" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Warning Location]" Member="Warning_Location" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[EmbeddedNavSat In Never Received]" Member="EmbeddedNavSat_In_Never_Received" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[EmbeddedNavSat In Missing]" Member="EmbeddedNavSat_In_Missing" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[EmbeddedNavSat In]" Member="EmbeddedNavSat_In" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[WaypntsActive In Never Received]" Member="WaypntsActive_In_Never_Received" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[WaypntsActive In Missing]" Member="WaypntsActive_In_Missing" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[WaypntsActive In]" Member="WaypntsActive_In" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
